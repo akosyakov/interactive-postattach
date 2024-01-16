@@ -21,5 +21,8 @@
 
 	"remoteEnv": {
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
+	"containerEnv": {
+		"FOO": "BAR"
 	}
 }
