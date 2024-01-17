@@ -20,9 +20,11 @@
 	"postAttachCommand": ".devcontainer/interactive.sh",
 
 	"remoteEnv": {
-		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+		"REMOTE_FOO": "BAR",
+		"REMOTE_SUB": "f:${localWorkspaceFolder}"
 	},
 	"containerEnv": {
-		"FOO": "BAR"
+		"CONTAINER_FOO": "BAR",
+		"CONTAINER_SUB": "f:${localWorkspaceFolder}"
 	}
 }
